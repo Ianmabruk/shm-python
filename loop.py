@@ -11,7 +11,7 @@ while to_loop:
 
 k=0
 while k<10:
-    print("k is",k)
+    print("k is",k) #simplified part of it.
     k=k+1
 
 
@@ -21,3 +21,14 @@ for i in range(2,10):
 
 for i in range(0,1000,2):#shows even numbers btn 0-1000
     print("all numbers are even",i)
+#the stem factor is two making the results to be even numbers.
+
+fruits=["mango","papaya","orange"]
+
+for fruit in fruits:
+    print(fruit)
+    
+for  i in range(0,3):
+    fuit=fruits[i]
+    print(fruit)
+     
